@@ -1,0 +1,1 @@
+{ "servers": { "mcp-gmail": { "type": "stdio", "command": "uvicorn", "args": ["mcp_gmail.main:app", "--reload"] } } }

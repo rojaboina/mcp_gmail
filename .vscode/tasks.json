@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run MCP Gmail Server",
+      "type": "shell",
+      "command": "OAUTHLIB_INSECURE_TRANSPORT=1 uvicorn mcp_gmail.main:app --reload --port 8001",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

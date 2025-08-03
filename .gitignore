@@ -1,0 +1,6 @@
+# Sensitive and environment-specific files
+credentials.json
+token.pickle
+.env
+__pycache__/
+.venv/
